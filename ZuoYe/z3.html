@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			div{
+				margin-top:30px;
+			}
+			table{
+				border:1px solid red;
+				border-collapse:collapse;
+				margin-top:30px;
+			}
+			td{
+				border:1px solid red;
+				padding:5px 20px;
+			}
+			tr>td:nth-of-type(6){
+				padding:5px 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--25页第3题-->
+		<div>
+			<label for="txt1">姓名：</label>
+			<input type="text" id="txt1"/>
+		</div>
+		<div>
+			<label for="txt2">性别：</label>
+			<input type="text" id="txt2"/>
+		</div>
+		<div>
+			<input type="button" id="btn1" value="添加" />
+			<input type="button" id="btn2" value="全部删除" />
+			<input type="button" id="btn3" value="选中删除" />
+		</div>
+		<table>
+			<tr>
+				<td>
+					<input type="checkbox" id="ch1"/>
+					全选
+				</td>
+				<td>序列号</td>
+				<td>姓名</td>
+				<td>性别</td>
+				<td>操作</td>
+				<td>时间</td>
+			</tr>
+		</table>
+	</body>
+	<script type="text/javascript" src="js/z3.js"></script>
+</html>

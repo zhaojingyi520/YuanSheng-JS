@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			#box{
+				margin:0 auto;
+				width: 600px;
+			}
+			#div1 {
+				height: 50px;
+			}
+			.c2 {
+				float: left;
+			}
+			
+			#div1>div:nth-of-type(2) {
+				float: right;
+			}
+			#div3{
+				height:20px;
+				margin-top:20px;
+			}
+			#div3>input{
+				float:right;
+			}
+			.c1{
+				width:600px;
+				height:100px;
+				border:1px solid red;
+				margin-top:20px;
+			}
+			.c3{
+				float:right;
+				width:200px;
+				line-height:100px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="box">
+			<div id="div1">
+				<div class="c2">你想对欧珠说点啥</div>
+				<div>字符不超过20</div>
+			</div>
+			<textarea name="" id="txt1" cols="85" rows="15"></textarea>
+			<div id="div3">
+				<input type="button" id="btn1" value="发表" />
+			</div>
+			
+		</div>
+	</body>
+	<script type="text/javascript" src="js/Z4.js"></script>
+
+</html>

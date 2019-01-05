@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			#btn1,#btn2{
+			margin:10px 50px 50px 30px;
+			}
+			#txt1{
+				width:200px;
+				height:20px;
+			}
+			table{
+				border:1px solid red;
+				border-collapse:collapse;
+				margin-top:30px;
+			}
+			td{
+				border:1px solid red;
+				width:150px;
+				height:30px;
+				text-align:center;
+				line-height:30px;
+			}
+			td:hover{
+				background-color:yellow;
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<!--25页作业-->
+		<div>
+			<input type="button" id="btn1" value="全部删除"/>
+			<input type="button" id="btn2" value="选中删除"/>
+		</div>
+		<div>
+			<input type="text" id="txt1" placeholder="请输入关键字"/>
+			<input type="submit" id="sub" value="搜索"/>
+		</div>
+		<table>
+			<tr>
+				<td>
+					<input type="checkbox" id="ch1" />全选
+				</td>
+				<td>序列号</td>
+				<td>商品</td>
+				<td>价格</td>
+				<td>产地</td>
+				<td>品牌</td>
+				<td>操作</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" class="ch2"/>
+				</td>
+				<td>1</td>
+				<td  class="fru">苹果</td>
+				<td>20元</td>
+				<td>海南</td>
+				<td>000</td>
+				<td class="del">删除</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" class="ch2"/>
+				</td>
+				<td>2</td>
+				<td  class="fru">香蕉</td>
+				<td>20元</td>
+				<td>海南</td>
+				<td>000</td>
+				<td class="del">删除</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" class="ch2"/>
+				</td>
+				<td>3</td>
+				<td  class="fru">樱桃</td>
+				<td>20元</td>
+				<td>海南</td>
+				<td>000</td>
+				<td class="del">删除</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" class="ch2"/>
+				</td>
+				<td>4</td>
+				<td  class="fru">西瓜</td>
+				<td>20元</td>
+				<td>海南</td>
+				<td>000</td>
+				<td class="del">删除</td>
+			</tr>
+		</table>
+		
+		
+	</body>
+	<script type="text/javascript" src="js/Z2.js"></script>
+</html>
